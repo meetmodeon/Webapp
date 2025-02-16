@@ -11,4 +11,8 @@ public class HomeController {
     public String getHome(){
      return "Hello world";
     }
+    @GetMapping("/")
+    public String getRoo(){
+        return "This is web api application";
+    }
 }
